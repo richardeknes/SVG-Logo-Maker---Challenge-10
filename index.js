@@ -45,8 +45,10 @@ function init() {
                 if (error) {
                     console.error(error)
                 }
+            console.log("Generated logo.svg")
             })
+            
         });
-}
-
-init();
+    }
+    
+    init()
